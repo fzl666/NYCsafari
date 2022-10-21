@@ -1,0 +1,39 @@
+.icon{
+ height:200px;
+ margin:20px;
+}
+.photo{
+    height: 80%;
+}
+.eco{ 
+    height:100%;
+    width: 100%;
+    white-space: nowrap;
+    overflow:auto
+}
+.eco::-webkit-scrollbar {
+    display: none;
+  }
+.plants{
+    display:inline-block;
+    height:70%;
+    margin: 10px;
+}
+.floor{
+    float: right;
+    height: 300px;
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    display: block;
+    text-align:center
+}
+ul {
+    list-style-type: none;
+  }
+.nav{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
